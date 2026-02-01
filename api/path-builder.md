@@ -1,94 +1,46 @@
 # API Reference: PathBuilder
 
-`PathBuilder` is the modern, recommended way to construct `Path` objects in Skija. It provides a fluent API and is designed specifically for path construction, separating the building process from the immutable `Path` result.
+`PathBuilder` is a fluent, mutable builder for creating immutable [`Path`](Path.md) objects.
 
-## Basic Commands
+## Overview
 
-Movement and Lines:
-- `moveTo(x, y)`: Starts a new contour.
-- `lineTo(x, y)`: Adds a line segment.
-- `polylineTo(points)`: Adds multiple line segments.
+Unlike `Path`, which can be modified directly in Skia, Skija encourages using `PathBuilder` to construct a path and then "snapshot" it into an immutable `Path` object. This is more efficient and follows modern Skia best practices.
+
+## Methods
+
+### Movement
+
+- `moveTo(x, y)`: Starts a new contour at (x, y).
+- `lineTo(x, y)`: Adds a line segment from the current point to (x, y).
+- `quadTo(x1, y1, x2, y2)`: Adds a quadratic Bezier curve.
+- `conicTo(x1, y1, x2, y2, w)`: Adds a conic Bezier curve with weight `w`.
+- `cubicTo(x1, y1, x2, y2, x3, y3)`: Adds a cubic Bezier curve.
 - `closePath()`: Closes the current contour.
 
-Relative Commands (offsets from current point):
-- `rMoveTo(dx, dy)`
-- `rLineTo(dx, dy)`
+### Relative Movement
 
-## Curves
+All absolute methods have relative counterparts (e.g., `rLineTo`, `rCubicTo`) which use coordinates relative to the current point.
 
-Quadratic Bézier (1 control point):
-- `quadTo(x1, y1, x2, y2)`: Absolute coordinates.
-- `rQuadTo(dx1, dy1, dx2, dy2)`: Relative coordinates.
+### Shapes
 
-Cubic Bézier (2 control points):
-- `cubicTo(x1, y1, x2, y2, x3, y3)`: Absolute.
-- `rCubicTo(dx1, dy1, dx2, dy2, dx3, dy3)`: Relative.
+- `addRect(rect)`: Adds a rectangle.
+- `addOval(rect)`: Adds an oval.
+- `addCircle(x, y, radius)`: Adds a circle.
+- `addRRect(rrect)`: Adds a rounded rectangle.
+- `addPath(path)`: Adds another path to this builder.
 
-Conic (Quadratic with weight):
-- `conicTo(x1, y1, x2, y2, w)`: Useful for exact circles/ellipses.
-- `rConicTo(...)`: Relative version.
+### Finalization
 
-## Arcs
+- `make()`: Returns a new `Path` object and **resets** the builder.
+- `snapshot()`: Returns a new `Path` object **without** resetting the builder.
 
-- `arcTo(oval, startAngle, sweepAngle, forceMoveTo)`: Adds an arc confined to the given oval.
-- `tangentArcTo(p1, p2, radius)`: Adds an arc tangent to lines (current -> p1) and (p1 -> p2).
-- `ellipticalArcTo(...)`: Adds an SVG-style arc.
-
-## Adding Shapes
-
-`PathBuilder` allows adding entire shapes as new contours.
-
-- `addRect(rect, direction, startIndex)`
-- `addOval(rect, direction, startIndex)`
-- `addCircle(x, y, radius, direction)`
-- `addRRect(rrect, direction, startIndex)`: Rounded Rectangle.
-- `addPolygon(points, close)`: Adds a sequence of points as a contour.
-- `addPath(path, mode)`: Appends another path's contours to this one.
-
-## Transformations (Builder-State)
-
-These methods affect the points *currently* in the builder.
-
-- `offset(dx, dy)`: Translates all existing points in the builder.
-- `transform(matrix)`: Applies a matrix to all existing points.
-
-## Builder Management
-
-- `reset()`: Clears the builder to an empty state (retains memory).
-- `incReserve(points, verbs)`: Pre-allocates memory to avoid resizing during building.
-- `setFillMode(mode)`: Sets the fill rule (`WINDING`, `EVEN_ODD`, etc.).
-- `setVolatile(boolean)`: Hints that the resulting path should not be cached (useful for one-off animation paths).
-
-## Output Methods
-
-- **`snapshot()`**: Returns a `Path` and keeps the builder state intact.
-- **`detach()`**: Returns a `Path` and resets the builder (most efficient).
-- **`build()`**: Returns a `Path` and closes the builder (cannot use afterwards).
-
-## Example: Basic Building
+## Example
 
 ```java
 Path path = new PathBuilder()
-    .moveTo(10, 10)
-    .lineTo(100, 10)
+    .moveTo(0, 0)
+    .lineTo(100, 0)
     .lineTo(100, 100)
-    .quadTo(50, 150, 10, 100)
     .closePath()
-    .snapshot(); // Returns the Path
+    .make();
 ```
-
-## Example: Transformations
-
-```java
-PathBuilder builder = new PathBuilder();
-
-builder.addRect(Rect.makeXYWH(0, 0, 100, 100))
-       .offset(10, 10)
-       .transform(Matrix33.makeRotate(45));
-
-Path p = builder.detach(); // Returns path and resets builder
-```
-
-## Visual Example
-
-See [`examples/scenes/src/PathsScene.java`](https://github.com/HumbleUI/Skija/blob/master/examples/scenes/src/PathsScene.java) for various path combinations and filling rules.

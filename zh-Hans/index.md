@@ -43,13 +43,17 @@ features:
 - [**Surface**](api/Surface.md): 创建绘图目标（光栅、GPU、包装）。
 - [**Canvas**](api/Canvas.md): 变换、裁剪和绘制图元。
 - [**Images & Bitmaps**](api/Images.md): 加载、绘制和操作像素数据。
+- [**SamplingMode**](api/SamplingMode.md): 定义缩放时像素的采样方式。
+- [**CubicResampler**](api/CubicResampler.md): 高质量的双三次插值。
 - [**Data**](api/Data.md): 高效的原生内存管理。
+- [**StreamAsset**](api/StreamAsset.md): 可寻址的只读数据流。
 - [**Matrix**](api/Matrix.md): 3x3 和 4x4 矩阵变换。
 - [**Codec (Animations)**](api/Codec.md): 底层图像解码和 GIF/WebP 动画。
 - [**Paint & Effects**](api/Effects.md): 样式、模糊、阴影和颜色过滤器。
 - [**Shadows**](api/Shadows.md): 2D 投影和基于 3D 高度的阴影。
 - [**Paths**](api/Path.md): 创建和组合复杂的几何形状。
 - [**PathBuilder**](api/path-builder.md): 用于构建路径的流式 API。
+- [**PathMeasure**](api/PathMeasure.md): 测量路径长度并沿路径查找点。
 - [**Region**](api/Region.md): 基于整数的区域操作和点击测试。
 - [**Picture**](api/Picture.md): 为了性能记录和重放绘图命令。
 

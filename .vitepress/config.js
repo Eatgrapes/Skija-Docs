@@ -26,23 +26,32 @@ function getSidebar(prefix = '') {
         { text: 'Surface', link: prefix + '/api/Surface' },
         { text: 'Canvas', link: prefix + '/api/Canvas' },
         { text: 'Images & Bitmaps', link: prefix + '/api/Images' },
+        { text: 'Sampling Mode', link: prefix + '/api/SamplingMode' },
+        { text: 'Cubic Resampler', link: prefix + '/api/CubicResampler' },
         { text: 'Data', link: prefix + '/api/Data' },
+        { text: 'StreamAsset', link: prefix + '/api/StreamAsset' },
         { text: 'Codec (Animations)', link: prefix + '/api/Codec' },
+        { text: 'Paint & Effects', link: prefix + '/api/Effects' },
+        { text: 'Matrix', link: prefix + '/api/Matrix' },
+        { text: 'Shadows', link: prefix + '/api/Shadows' },
+        { text: 'Font', link: prefix + '/api/Font' },
+        { text: 'Paths', link: prefix + '/api/Path' },
+        { text: 'PathBuilder', link: prefix + '/api/path-builder' },
+        { text: 'PathMeasure', link: prefix + '/api/PathMeasure' },
+        { text: 'Region', link: prefix + '/api/Region' },
+        { text: 'Picture', link: prefix + '/api/Picture' }
+      ]
+    },
+    {
+      text: 'Typography & Text',
+      items: [
         { text: 'Typography & Fonts', link: prefix + '/typography' },
         { text: 'Typeface', link: prefix + '/api/Typeface' },
         { text: 'TextBlob & Builder', link: prefix + '/api/TextBlob' },
         { text: 'TextLine', link: prefix + '/api/TextLine' },
         { text: 'BreakIterator', link: prefix + '/api/BreakIterator' },
         { text: 'Text Animation & Clipping', link: prefix + '/api/text-animation' },
-        { text: 'Paragraph (Rich Text)', link: prefix + '/api/Paragraph' },
-        { text: 'Paint & Effects', link: prefix + '/api/Effects' },
-          { text: 'Matrix', link: '/api/Matrix' },
-          { text: 'Shadows', link: '/api/Shadows' },
-          { text: 'Font', link: '/api/Font' },
-          { text: 'Paths', link: '/api/Path' },
-        { text: 'PathBuilder', link: prefix + '/api/path-builder' },
-        { text: 'Region', link: prefix + '/api/Region' },
-        { text: 'Picture', link: prefix + '/api/Picture' }
+        { text: 'Paragraph (Rich Text)', link: prefix + '/api/Paragraph' }
       ]
     },
     {

@@ -43,13 +43,17 @@ If you find any errors or have suggestions, please report them at [**Eatgrapes/S
 - [**Surface**](api/Surface.md): Creating drawing destinations (Raster, GPU, Wrapped).
 - [**Canvas**](api/Canvas.md): Transformations, clipping, and drawing primitives.
 - [**Images & Bitmaps**](api/Images.md): Loading, drawing, and manipulating pixel data.
+- [**Sampling Mode**](api/SamplingMode.md): Defining how pixels are sampled during scaling.
+- [**Cubic Resampler**](api/CubicResampler.md): High-quality bicubic interpolation.
 - [**Data**](api/Data.md): Efficient native memory management.
+- [**StreamAsset**](api/StreamAsset.md): Seekable read-only data streams.
 - [**Matrix**](api/Matrix.md): 3x3 and 4x4 matrix transformations.
 - [**Codec (Animations)**](api/Codec.md): Low-level image decoding and GIF/WebP animations.
 - [**Paint & Effects**](api/Effects.md): Styles, blurs, shadows, and color filters.
 - [**Shadows**](api/Shadows.md): 2D drop shadows and 3D elevation-based shadows.
 - [**Paths**](api/Path.md): Creating and combining complex geometric shapes.
 - [**PathBuilder**](api/path-builder.md): Fluent API for constructing paths.
+- [**PathMeasure**](api/PathMeasure.md): Measuring length and finding points along a path.
 - [**Region**](api/Region.md): Integer-based area operations and hit-testing.
 - [**Picture**](api/Picture.md): Recording and replaying drawing commands for performance.
 

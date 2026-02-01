@@ -43,13 +43,17 @@ features:
 - [**Surface**](../api/Surface.md): 建立繪圖目標（光柵、GPU、包裝）。
 - [**Canvas**](../api/Canvas.md): 變換、裁剪和繪圖原語。
 - [**Images & Bitmaps**](../api/Images.md): 載入、繪製和操作畫素資料。
+- [**SamplingMode**](../api/SamplingMode.md): 定義縮放時畫素的採樣方式。
+- [**CubicResampler**](../api/CubicResampler.md): 高品質的雙三次插值。
 - [**Data**](../api/Data.md): 高效的本機記憶體管理。
+- [**StreamAsset**](../api/StreamAsset.md): 可定址的唯讀資料流。
 - [**Matrix**](../api/Matrix.md): 3x3 和 4x4 矩陣變換。
 - [**Codec (Animations)**](../api/Codec.md): 低階影象解碼和 GIF/WebP 動畫。
-- [**Paint & Effects**](../api/Effects.md): 樣式、模糊、陰影和濾色器。
+- [**Paint & Effects**](../api/Effects.md): 樣式、模糊、陰影 e 濾色器。
 - [**Shadows**](../api/Shadows.md): 2D 投影陰影和基於 3D 高度的陰影。
 - [**Paths**](../api/Path.md): 建立和組合複雜的幾何形狀。
 - [**PathBuilder**](../api/path-builder.md): 用於構建路徑的流暢 API。
+- [**PathMeasure**](../api/PathMeasure.md): 測量路徑長度並沿路徑查詢點。
 - [**Region**](../api/Region.md): 基於整數的區域操作和點選測試。
 - [**Picture**](../api/Picture.md): 記錄和重放繪圖命令以提高效能。
 
