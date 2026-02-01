@@ -65,6 +65,7 @@ function getSidebar(prefix = '') {
 }
 
 export default defineConfig({
+  base: '/Skija-Docs/',
   title: "Skija",
   description: "High-performance Java graphics powered by Skia",
   
