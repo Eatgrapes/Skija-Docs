@@ -56,6 +56,7 @@ If you find any errors or have suggestions, please report them at [**Eatgrapes/S
 ### Typography & Text
 
 - [**Typeface**](api/Typeface.md): Font file loading and properties.
+- [**Font**](api/Font.md): Font size, metrics, and rendering attributes.
 - [**Typography & Fonts**](typography.md): Basics of fonts and metrics.
 - [**Text Animation & Clipping**](api/text-animation.md): Using text as masks, wavy text, and variable fonts.
 - [**TextBlob & Builder**](api/TextBlob.md): Optimized, reusable glyph runs.
