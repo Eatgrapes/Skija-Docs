@@ -59,10 +59,6 @@ Clipping restricts the area where drawing can occur.
 
 ## Drawing Methods
 
-**Visual Example:**
-See [`examples/scenes/src/GeometryScene.java`](https://github.com/HumbleUI/Skija/blob/master/examples/scenes/src/GeometryScene.java) for demos of drawing primitives.
-
-![Canvas Primitives](../images/canvas_primitives.png)
 
 ### Basic Primitives
 

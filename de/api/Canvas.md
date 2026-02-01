@@ -60,9 +60,7 @@ Clipping schränkt den Bereich ein, in dem gezeichnet werden kann.
 ## Zeichenmethoden
 
 **Visuelles Beispiel:**
-Siehe [`examples/scenes/src/GeometryScene.java`](https://github.com/HumbleUI/Skija/blob/master/examples/scenes/src/GeometryScene.java) für Demos von Zeichenprimitiven.
 
-![Canvas Primitives](../images/canvas_primitives.png)
 
 ### Grundlegende Primitiven
 

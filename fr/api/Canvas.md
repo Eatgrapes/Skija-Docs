@@ -59,10 +59,7 @@ Le découpage restreint la zone où le dessin peut se produire.
 
 ## Méthodes de dessin
 
-**Exemple visuel :**
-Voir [`examples/scenes/src/GeometryScene.java`](https://github.com/HumbleUI/Skija/blob/master/examples/scenes/src/GeometryScene.java) pour des démos de primitives de dessin.
 
-![Primitives du Canvas](../images/canvas_primitives.png)
 
 ### Primitives de base
 

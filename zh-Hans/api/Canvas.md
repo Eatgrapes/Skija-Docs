@@ -59,10 +59,6 @@ canvas.restore();
 
 ## 绘图方法
 
-**视觉示例：**
-查看 [`examples/scenes/src/GeometryScene.java`](https://github.com/HumbleUI/Skija/blob/master/examples/scenes/src/GeometryScene.java) 以获取绘图图元的演示。
-
-![Canvas 图元](../images/canvas_primitives.png)
 
 ### 基本图元
 

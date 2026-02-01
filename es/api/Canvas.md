@@ -59,10 +59,6 @@ El recorte restringe el área donde puede ocurrir el dibujo.
 
 ## Métodos de dibujo
 
-**Ejemplo visual:**
-Consulta [`examples/scenes/src/GeometryScene.java`](https://github.com/HumbleUI/Skija/blob/master/examples/scenes/src/GeometryScene.java) para ver demostraciones de primitivas de dibujo.
-
-![Primitivas del Canvas](../images/canvas_primitives.png)
 
 ### Primitivas básicas
 

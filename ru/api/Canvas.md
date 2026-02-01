@@ -59,10 +59,6 @@ canvas.restore();
 
 ## Методы рисования
 
-**Визуальный пример:**
-Смотрите [`examples/scenes/src/GeometryScene.java`](https://github.com/HumbleUI/Skija/blob/master/examples/scenes/src/GeometryScene.java) для демонстрации рисования примитивов.
-
-![Примитивы Canvas](../images/canvas_primitives.png)
 
 ### Базовые примитивы
 

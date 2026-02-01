@@ -59,10 +59,6 @@ canvas.restore();
 
 ## 描画メソッド
 
-**視覚的な例:**
-描画プリミティブのデモについては、[`examples/scenes/src/GeometryScene.java`](https://github.com/HumbleUI/Skija/blob/master/examples/scenes/src/GeometryScene.java) を参照してください。
-
-![Canvas プリミティブ](../images/canvas_primitives.png)
 
 ### 基本プリミティブ
 
