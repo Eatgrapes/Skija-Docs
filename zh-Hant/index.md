@@ -56,6 +56,7 @@ features:
 ### 排版與文字
 
 - [**Typeface**](../api/Typeface.md): 字型檔案載入和屬性。
+- [**Font**](../api/Font.md): 字體大小、度量和渲染屬性。
 - [**Typography & Fonts**](../typography.md): 字型和度量的基礎知識。
 - [**Text Animation & Clipping**](../api/text-animation.md): 將文字用作遮罩、波浪文字和可變字型。
 - [**TextBlob & Builder**](../api/TextBlob.md): 最佳化的、可重複使用的字形執行。

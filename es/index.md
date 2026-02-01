@@ -56,6 +56,7 @@ Si encuentras errores o tienes sugerencias, repórtalos en [**Eatgrapes/Skija-Do
 ### Tipografía y Texto
 
 - [**Typeface**](../api/Typeface.md): Carga de archivos de fuentes y propiedades.
+- [**Font**](../api/Font.md): Tamaño de fuente, métricas y atributos de renderizado.
 - [**Typography & Fonts**](../typography.md): Conceptos básicos de fuentes y métricas.
 - [**Text Animation & Clipping**](../api/text-animation.md): Uso de texto como máscaras, texto ondulado y fuentes variables.
 - [**TextBlob & Builder**](../api/TextBlob.md): Ejecuciones de glifos optimizadas y reutilizables.

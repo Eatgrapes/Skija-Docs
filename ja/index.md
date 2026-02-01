@@ -56,6 +56,7 @@ features:
 ### タイポグラフィとテキスト
 
 - [**Typeface**](../api/Typeface.md): フォントファイルの読み込みとプロパティ。
+- [**Font**](../api/Font.md): フォントサイズ、メトリクス、およびレンダリング属性。
 - [**Typography & Fonts**](../typography.md): フォントとメトリクスの基礎。
 - [**Text Animation & Clipping**](../api/text-animation.md): テキストをマスク、波状テキスト、バリアブルフォントとして使用する。
 - [**TextBlob & Builder**](../api/TextBlob.md): 最適化された再利用可能なグリフラン。

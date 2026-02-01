@@ -56,6 +56,7 @@ Wenn Sie Fehler finden oder Vorschläge haben, melden Sie diese bitte unter [**E
 ### Typografie & Text
 
 - [**Typeface**](../api/Typeface.md): Schriftartdateien laden und Eigenschaften.
+- [**Font**](../api/Font.md): Schriftgröße, Metriken und Rendering-Attribute.
 - [**Typography & Fonts**](../typography.md): Grundlagen zu Schriftarten und Metriken.
 - [**Text Animation & Clipping**](../api/text-animation.md): Verwendung von Text als Masken, wellenförmiger Text und variable Schriftarten.
 - [**TextBlob & Builder**](../api/TextBlob.md): Optimierte, wiederverwendbare Glyphenläufe.

@@ -56,6 +56,7 @@ Si vous trouvez des erreurs ou avez des suggestions, veuillez les signaler sur [
 ### Typographie et Texte
 
 - [**Typeface**](../api/Typeface.md): Chargement de fichiers de polices et propriétés.
+- [**Font**](../api/Font.md) : Taille de police, métriques et attributs de rendu.
 - [**Typography & Fonts**](../typography.md): Principes de base des polices et des métriques.
 - [**Text Animation & Clipping**](../api/text-animation.md): Utilisation du texte comme masques, texte ondulé et polices variables.
 - [**TextBlob & Builder**](../api/TextBlob.md): Exécutions de glyphes optimisées et réutilisables.
