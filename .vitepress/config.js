@@ -36,9 +36,10 @@ function getSidebar(prefix = '') {
         { text: 'Text Animation & Clipping', link: prefix + '/api/text-animation' },
         { text: 'Paragraph (Rich Text)', link: prefix + '/api/Paragraph' },
         { text: 'Paint & Effects', link: prefix + '/api/Effects' },
-        { text: 'Matrix', link: prefix + '/api/Matrix' },
-        { text: 'Shadows', link: prefix + '/api/Shadows' },
-        { text: 'Paths', link: prefix + '/api/Path' },
+          { text: 'Matrix', link: '/api/Matrix' },
+          { text: 'Shadows', link: '/api/Shadows' },
+          { text: 'Font', link: '/api/Font' },
+          { text: 'Paths', link: '/api/Path' },
         { text: 'PathBuilder', link: prefix + '/api/path-builder' },
         { text: 'Region', link: prefix + '/api/Region' },
         { text: 'Picture', link: prefix + '/api/Picture' }
