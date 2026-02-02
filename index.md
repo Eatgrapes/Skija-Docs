@@ -43,6 +43,9 @@ If you find any errors or have suggestions, please report them at [**Eatgrapes/S
 - [**Surface**](api/Surface.md): Creating drawing destinations (Raster, GPU, Wrapped).
 - [**Canvas**](api/Canvas.md): Transformations, clipping, and drawing primitives.
 - [**Images & Bitmaps**](api/Images.md): Loading, drawing, and manipulating pixel data.
+- [**ImageInfo**](api/ImageInfo.md): Pixel dimensions and encoding.
+- [**ImageFilter**](api/ImageFilter.md): Pixel-level effects (blurs, shadows).
+- [**IHasImageInfo**](api/IHasImageInfo.md): Interface for objects with ImageInfo.
 - [**Sampling Mode**](api/SamplingMode.md): Defining how pixels are sampled during scaling.
 - [**Cubic Resampler**](api/CubicResampler.md): High-quality bicubic interpolation.
 - [**Data**](api/Data.md): Efficient native memory management.

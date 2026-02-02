@@ -43,6 +43,9 @@ features:
 - [**Surface**](api/Surface.md): 创建绘图目标（光栅、GPU、包装）。
 - [**Canvas**](api/Canvas.md): 变换、裁剪和绘制图元。
 - [**Images & Bitmaps**](api/Images.md): 加载、绘制和操作像素数据。
+- [**ImageInfo**](api/ImageInfo.md): 像素维度和编码方式。
+- [**ImageFilter**](api/ImageFilter.md): 像素级效果（模糊、阴影）。
+- [**IHasImageInfo**](api/IHasImageInfo.md): 包含 ImageInfo 对象的接口。
 - [**SamplingMode**](api/SamplingMode.md): 定义缩放时像素的采样方式。
 - [**CubicResampler**](api/CubicResampler.md): 高质量的双三次插值。
 - [**Data**](api/Data.md): 高效的原生内存管理。

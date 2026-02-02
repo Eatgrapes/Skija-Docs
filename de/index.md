@@ -43,6 +43,9 @@ Wenn Sie Fehler finden oder Vorschläge haben, melden Sie diese bitte unter [**E
 - [**Surface**](../api/Surface.md): Erstellen von Zeichenzielen (Raster, GPU, Wrapped).
 - [**Canvas**](../api/Canvas.md): Transformationen, Clipping und Zeichenprimitive.
 - [**Images & Bitmaps**](../api/Images.md): Laden, Zeichnen und Manipulieren von Pixeldaten.
+- [**ImageInfo**](../api/ImageInfo.md): Pixeldimensionen und Kodierung.
+- [**ImageFilter**](../api/ImageFilter.md): Effekte auf Pixelebene (Weichzeichnen, Schatten).
+- [**IHasImageInfo**](../api/IHasImageInfo.md): Schnittstelle für Objekte mit ImageInfo.
 - [**Data**](../api/Data.md): Effiziente Verwaltung von nativem Speicher.
 - [**Matrix**](../api/Matrix.md): 3x3- und 4x4-Matrixtransformationen.
 - [**Codec (Animations)**](../api/Codec.md): Bilddecodierung auf niedriger Ebene und GIF/WebP-Animationen.

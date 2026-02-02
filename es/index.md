@@ -43,6 +43,9 @@ Si encuentras errores o tienes sugerencias, repórtalos en [**Eatgrapes/Skija-Do
 - [**Surface**](../api/Surface.md): Creación de destinos de dibujo (Ráster, GPU, Envuelto).
 - [**Canvas**](../api/Canvas.md): Transformaciones, recorte y primitivas de dibujo.
 - [**Images & Bitmaps**](../api/Images.md): Carga, dibujo y manipulación de datos de píxeles.
+- [**ImageInfo**](../api/ImageInfo.md): Dimensiones de píxeles y codificación.
+- [**ImageFilter**](../api/ImageFilter.md): Efectos a nivel de píxel (desenfoques, sombras).
+- [**IHasImageInfo**](../api/IHasImageInfo.md): Interfaz para objetos con ImageInfo.
 - [**Data**](../api/Data.md): Gestión eficiente de memoria nativa.
 - [**Matrix**](../api/Matrix.md): Transformaciones matriciales 3x3 y 4x4.
 - [**Codec (Animations)**](../api/Codec.md): Decodificación de imágenes de bajo nivel y animaciones GIF/WebP.

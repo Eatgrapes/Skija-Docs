@@ -43,6 +43,9 @@ features:
 - [**Surface**](../api/Surface.md): Создание целей для рисования (растровые, GPU, обернутые).
 - [**Canvas**](../api/Canvas.md): Трансформации, отсечение и примитивы рисования.
 - [**Images & Bitmaps**](../api/Images.md): Загрузка, рисование и манипулирование пиксельными данными.
+- [**ImageInfo**](../api/ImageInfo.md): Размеры пикселей и кодировка.
+- [**ImageFilter**](../api/ImageFilter.md): Эффекты на уровне пикселей (размытие, тени).
+- [**IHasImageInfo**](../api/IHasImageInfo.md): Интерфейс для объектов с ImageInfo.
 - [**SamplingMode**](../api/SamplingMode.md): Определение того, как выбираются пиксели при масштабировании.
 - [**CubicResampler**](../api/CubicResampler.md): Высококачественная бикубическая интерполяция.
 - [**Data**](../api/Data.md): Эффективное управление нативной памятью.

@@ -43,6 +43,9 @@ features:
 - [**Surface**](../api/Surface.md): 描画先の作成（ラスター、GPU、ラップ）。
 - [**Canvas**](../api/Canvas.md): 変換、クリッピング、描画プリミティブ。
 - [**Images & Bitmaps**](../api/Images.md): ピクセルデータの読み込み、描画、操作。
+- [**ImageInfo**](../api/ImageInfo.md): ピクセル寸法とエンコーディング。
+- [**ImageFilter**](../api/ImageFilter.md): ピクセルレベルの効果（ぼかし、影）。
+- [**IHasImageInfo**](../api/IHasImageInfo.md): ImageInfoを持つオブジェクトのインターフェース。
 - [**Data**](../api/Data.md): 効率的なネイティブメモリ管理。
 - [**Matrix**](../api/Matrix.md): 3x3 および 4x4 行列変換。
 - [**Codec (Animations)**](../api/Codec.md): 低レベル画像デコードと GIF/WebP アニメーション。
