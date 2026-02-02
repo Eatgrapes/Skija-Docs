@@ -35,6 +35,7 @@ features:
 - [**Installation**](../installation.md): Настройка зависимостей проекта для Windows, macOS и Linux.
 - [**Rendering Basics**](../rendering-basics.md): Поверхности, холсты и ваш первый «Hello World».
 - [**Colors and Alpha**](../colors.md): Работа с прозрачностью, преумножением и цветовыми пространствами.
+- [**Color API**](../api/Color.md): High-precision representation, formats, and spaces.
 - [**Animation**](../animation.md): Создание движения, игровых циклов и воспроизведение анимаций Lottie/GIF.
 - [**Resource Management**](../resource-management.md): Как Skija работает с нативной памятью и жизненным циклом `Managed`.
 

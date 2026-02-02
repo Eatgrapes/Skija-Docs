@@ -35,6 +35,7 @@ Wenn Sie Fehler finden oder Vorschläge haben, melden Sie diese bitte unter [**E
 - [**Installation**](../installation.md): Einrichten von Projektabhängigkeiten für Windows, macOS und Linux.
 - [**Rendering Basics**](../rendering-basics.md): Surfaces, Canvases und Ihr erstes „Hello World“.
 - [**Colors and Alpha**](../colors.md): Umgang mit Transparenz, Vormultiplikation und Farbräumen.
+- [**Color API**](../api/Color.md): High-precision representation, formats, and spaces.
 - [**Animation**](../animation.md): Erstellen von Bewegungen, Spielschleifen und Abspielen von Lottie/GIF-Animationen.
 - [**Resource Management**](../resource-management.md): Wie Skija nativen Speicher und den `Managed`-Lebenszyklus handhabt.
 

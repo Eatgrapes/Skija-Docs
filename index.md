@@ -35,6 +35,7 @@ If you find any errors or have suggestions, please report them at [**Eatgrapes/S
 - [**Installation**](installation.md): Setting up dependencies for Windows, macOS, and Linux.
 - [**Rendering Basics**](rendering-basics.md): Surfaces, Canvases, and your first "Hello World".
 - [**Colors and Alpha**](colors.md): Handling transparency, premultiplication, and color spaces.
+- [**Color API**](api/Color.md): High-precision representation, formats, and spaces.
 - [**Animation**](animation.md): Creating movement, game loops, and playing Lottie/GIFs.
 - [**Resource Management**](resource-management.md): How Skija handles native memory and the `Managed` lifecycle.
 

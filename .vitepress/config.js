@@ -36,6 +36,7 @@ function getSidebar(prefix = '') {
         { text: 'Codec (Animations)', link: prefix + '/api/Codec' },
         { text: 'Paint & Effects', link: prefix + '/api/Effects' },
         { text: 'Matrix', link: prefix + '/api/Matrix' },
+        { text: 'Color', link: prefix + '/api/Color' },
         { text: 'Shadows', link: prefix + '/api/Shadows' },
         { text: 'Font', link: prefix + '/api/Font' },
         { text: 'Paths', link: prefix + '/api/Path' },

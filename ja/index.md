@@ -35,6 +35,7 @@ features:
 - [**Installation**](../installation.md): Windows、macOS、Linux 用のプロジェクト依存関係のセットアップ。
 - [**Rendering Basics**](../rendering-basics.md): Surface、Canvas、そして最初の「Hello World」。
 - [**Colors and Alpha**](../colors.md): 透明度、プリマルチプライ、色空間の処理。
+- [**Color API**](../api/Color.md): High-precision representation, formats, and spaces.
 - [**Animation**](../animation.md): 動きの作成、ゲームループ、Lottie/GIF アニメーションの再生。
 - [**Resource Management**](../resource-management.md): Skija におけるネイティブメモリと `Managed` ライフサイクルの処理方法。
 

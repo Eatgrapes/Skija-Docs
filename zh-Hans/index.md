@@ -35,6 +35,7 @@ features:
 - [**安装**](installation.md): Windows、macOS 和 Linux 的依赖项设置。
 - [**渲染基础**](rendering-basics.md): Surface、Canvas 和你的第一个 "Hello World"。
 - [**颜色和 Alpha**](colors.md): 处理透明度、预乘和色彩空间。
+- [**Color API**](api/Color.md): 高精度颜色表示、像素格式和色彩空间。
 - [**动画**](animation.md): 创建运动、游戏循环和播放 Lottie/GIF。
 - [**资源管理**](resource-management.md): Skija 如何处理原生内存和 `Managed` 生命周期。
 

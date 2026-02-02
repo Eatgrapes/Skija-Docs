@@ -35,6 +35,7 @@ Si encuentras errores o tienes sugerencias, repórtalos en [**Eatgrapes/Skija-Do
 - [**Installation**](../installation.md): Configuración de dependencias del proyecto para Windows, macOS y Linux.
 - [**Rendering Basics**](../rendering-basics.md): Surfaces, Canvases y tu primer "Hola Mundo".
 - [**Colors and Alpha**](../colors.md): Manejo de transparencia, premultiplicación y espacios de color.
+- [**Color API**](../api/Color.md): High-precision representation, formats, and spaces.
 - [**Animation**](../animation.md): Creación de movimiento, bucles de juego y reproducción de animaciones Lottie/GIF.
 - [**Resource Management**](../resource-management.md): Cómo Skija maneja la memoria nativa y el ciclo de vida `Managed`.
 
